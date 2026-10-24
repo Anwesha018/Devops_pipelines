@@ -18,7 +18,7 @@ jobs:
         node-version: 26
 
      - name: Install Depependencies
-       uses: npm Install
+       uses: npm install
 
      - name: Run Tests
        uses: npm test
